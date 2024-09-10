@@ -1,0 +1,6 @@
+postgres:
+    port: "5438"
+project:
+    name: realtime-data-streaming
+webserver:
+    port: "8088"
