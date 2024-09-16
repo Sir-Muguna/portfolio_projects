@@ -1,0 +1,3 @@
+[submodule "portfolio_projects/graphql/graphql-server/portfolio_projects/graphql/graphql-server/graphql_server"]
+	path = portfolio_projects/graphql/graphql-server/portfolio_projects/graphql/graphql-server/graphql_server
+	url = https://github.com/Sir-Muguna/graphql_server.git
