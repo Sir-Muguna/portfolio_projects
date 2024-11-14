@@ -1,0 +1,14 @@
+[DEFAULT]
+linuxpath = /root/projects/portfolio_projects/tcp_server_project/source_files/200k.txt
+linuxpath_1 = /root/projects/portfolio_projects/tcp_server_project/source_files
+linuxpath_2 = /root/projects/portfolio_projects/tcp_server_project/benchmarking_results
+log_path = /root/projects/portfolio_projects/tcp_server_project/logs/server.log
+
+ssl_cert = /root/projects/portfolio_projects/tcp_server_project/ssl_certificates/server_cert.pem
+ssl_key = /root/projects/portfolio_projects/tcp_server_project/ssl_certificates/server_key.pem
+reread_on_query = False
+ssl_enabled = True
+
+[CLIENT]
+host = localhost
+port = 65432

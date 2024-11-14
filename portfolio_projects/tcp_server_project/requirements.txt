@@ -1,0 +1,6 @@
+# Run pip install -r requirements.txt to install all dependencies listed in requirements.txt on bash terminal
+mypy # package to report any errors in the script files
+matplotlib # package to create plots and other visuals
+tabulate
+types-tabulate
+flake8
