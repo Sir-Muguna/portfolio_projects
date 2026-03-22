@@ -1,0 +1,54 @@
+### pip install kafka-python
+### pip install s3fs
+### configure AWS to local machine
+
+### Download and Extract Kafka
+wget https://dlcdn.apache.org/kafka/3.9.0/kafka_2.12-3.9.0.tgz
+tar -xvf kafka_2.12-3.9.0.tgz
+cd kafka_2.12-3.9.0
+
+---
+
+### Java Installation
+Amazon Linux 2023 uses `dnf` instead of `yum`. Install the latest compatible Java version:
+java -version
+sudo dnf install java-17-amazon-corretto
+java -version
+
+---
+
+### Start ZooKeeper
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+---
+
+### Start Kafka Server
+1. In a new console session (SSH into your EC2 instance if needed):
+2. Set Kafka heap options:
+   export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
+3. Start the Kafka server:
+   bin/kafka-server-start.sh config/server.properties
+
+#### Update `server.properties` for Public IP
+Edit the `server.properties` file to set the advertised listeners:
+sudo nano config/server.properties
+Find and update the line for `advertised.listeners`:
+advertised.listeners=PLAINTEXT://<Public_IP_of_EC2_Instance>:9092
+Save and exit the file.
+
+---
+
+### Create a Topic
+In another console session:
+bin/kafka-topics.sh --create --topic stock_data --bootstrap-server <Public_IP_of_EC2_Instance>:9092 --replication-factor 1 --partitions 1
+
+---
+
+### Start Producer
+bin/kafka-console-producer.sh --topic stock_data --bootstrap-server <Public_IP_of_EC2_Instance>:9092
+
+---
+
+### Start Consumer
+In a new console session:
+bin/kafka-console-consumer.sh --topic stock_data --bootstrap-server <Public_IP_of_EC2_Instance>:9092

@@ -1,0 +1,136 @@
+2025-08-25 07:27:23,046 - INFO - 🚀 Starting Amazon Data ETL Process
+2025-08-25 07:27:23,046 - INFO - ==================================================
+2025-08-25 07:27:23,050 - INFO - ✅ API is healthy
+2025-08-25 07:27:23,050 - INFO - Generating 100 daily entries...
+2025-08-25 07:27:23,052 - ERROR - ❌ Failed to generate daily data: {"error":"Master sheet not generated yet"}
+
+2025-08-25 07:27:23,052 - WARNING - Failed to generate daily data, trying to fetch existing data
+2025-08-25 07:27:23,052 - INFO - Fetching daily data...
+2025-08-25 07:27:23,052 - INFO - Fetching page 1...
+2025-08-25 07:27:23,055 - INFO - Page 1: 0 records
+2025-08-25 07:27:23,055 - INFO - ✅ Total records fetched: 0
+2025-08-25 07:27:23,056 - INFO - Fetching master sheet data...
+2025-08-25 07:27:23,056 - INFO - Fetching master page 1...
+2025-08-25 07:27:23,058 - ERROR - ❌ Failed to fetch master page 1: {"error":"Master sheet not generated yet"}
+
+2025-08-25 07:27:23,058 - INFO - ✅ Total master records fetched: 0
+2025-08-25 07:27:23,059 - INFO - ✅ ETL process completed successfully
+2025-08-25 07:29:50,979 - INFO - 🚀 Starting Amazon Data ETL Process
+2025-08-25 07:29:50,980 - INFO - ==================================================
+2025-08-25 07:29:50,983 - INFO - ✅ API is healthy
+2025-08-25 07:29:50,984 - INFO - Checking if master sheet exists...
+2025-08-25 07:29:50,987 - INFO - Master sheet not found, generating now...
+2025-08-25 07:29:50,987 - INFO - Generating master sheet with 2500 entries...
+2025-08-25 07:29:51,166 - INFO - ✅ Master sheet generated: Master sheet generated successfully
+2025-08-25 07:29:51,167 - INFO - Total entries: 2500
+2025-08-25 07:29:53,167 - INFO - Generating 100 daily entries...
+2025-08-25 07:29:53,212 - INFO - ✅ Daily data generated: Generated 100 daily entries
+2025-08-25 07:29:53,212 - INFO - Total entries: 100
+2025-08-25 07:29:53,212 - INFO - Fetching daily data...
+2025-08-25 07:29:53,212 - INFO - Fetching page 1...
+2025-08-25 07:29:53,216 - INFO - Page 1: 100 records
+2025-08-25 07:29:53,316 - INFO - Fetching page 2...
+2025-08-25 07:29:53,319 - INFO - Page 2: 0 records
+2025-08-25 07:29:53,319 - INFO - ✅ Total records fetched: 100
+2025-08-25 07:29:53,323 - ERROR - ❌ Error saving data: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2025-08-25 07:29:53,323 - INFO - 
+📊 Daily Data Statistics:
+2025-08-25 07:29:53,323 - INFO - Total records: 100
+2025-08-25 07:29:53,326 - INFO - Total profit: $-576286.02
+2025-08-25 07:29:53,327 - INFO - Profitable items: 9
+2025-08-25 07:29:53,330 - INFO - Status 'Sold': 53 items
+2025-08-25 07:29:53,330 - INFO - Status 'In Transit': 13 items
+2025-08-25 07:29:53,330 - INFO - Status 'At FBA': 13 items
+2025-08-25 07:29:53,330 - INFO - Status 'Not Sent': 13 items
+2025-08-25 07:29:53,330 - INFO - Status 'Returned': 8 items
+2025-08-25 07:29:53,330 - INFO - Fetching master sheet data...
+2025-08-25 07:29:53,330 - INFO - Fetching master page 1...
+2025-08-25 07:29:53,336 - INFO - Master Page 1: 100 records
+2025-08-25 07:29:53,437 - INFO - Fetching master page 2...
+2025-08-25 07:29:53,443 - INFO - Master Page 2: 100 records
+2025-08-25 07:29:53,543 - INFO - ✅ Total master records fetched: 200
+2025-08-25 07:29:53,545 - ERROR - ❌ Error saving data: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.
+ - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.
+2025-08-25 07:29:53,546 - INFO - ✅ ETL process completed successfully
+2025-08-25 07:31:24,164 - INFO - 🚀 Starting Amazon Data ETL Process
+2025-08-25 07:31:24,164 - INFO - ==================================================
+2025-08-25 07:31:24,175 - INFO - ✅ API is healthy
+2025-08-25 07:31:24,176 - INFO - Checking if master sheet exists...
+2025-08-25 07:31:24,179 - INFO - ✅ Master sheet already exists
+2025-08-25 07:31:24,179 - INFO - Generating 100 daily entries...
+2025-08-25 07:31:24,225 - INFO - ✅ Daily data generated: Generated 100 daily entries
+2025-08-25 07:31:24,225 - INFO - Total entries: 100
+2025-08-25 07:31:24,225 - INFO - Fetching daily data...
+2025-08-25 07:31:24,225 - INFO - Fetching page 1...
+2025-08-25 07:31:24,229 - INFO - Page 1: 100 records
+2025-08-25 07:31:24,330 - INFO - Fetching page 2...
+2025-08-25 07:31:24,335 - INFO - Page 2: 0 records
+2025-08-25 07:31:24,335 - INFO - ✅ Total records fetched: 100
+2025-08-25 07:31:24,360 - INFO - ✅ Data saved to daily_amazon_data_20250825_073124.parquet
+2025-08-25 07:31:24,360 - INFO - File size: 100 records
+2025-08-25 07:31:24,364 - INFO - 
+📊 Daily Data Statistics:
+2025-08-25 07:31:24,364 - INFO - Total records: 100
+2025-08-25 07:31:24,365 - INFO - Total profit: $-576286.02
+2025-08-25 07:31:24,365 - INFO - Profitable items: 9
+2025-08-25 07:31:24,367 - INFO - Status 'Sold': 53 items
+2025-08-25 07:31:24,367 - INFO - Status 'In Transit': 13 items
+2025-08-25 07:31:24,367 - INFO - Status 'At FBA': 13 items
+2025-08-25 07:31:24,367 - INFO - Status 'Not Sent': 13 items
+2025-08-25 07:31:24,367 - INFO - Status 'Returned': 8 items
+2025-08-25 07:31:24,367 - INFO - Fetching master sheet data...
+2025-08-25 07:31:24,368 - INFO - Fetching master page 1...
+2025-08-25 07:31:24,370 - ERROR - ❌ Failed to fetch master page 1: {"error":"Master sheet not generated yet"}
+
+2025-08-25 07:31:24,370 - INFO - ✅ Total master records fetched: 0
+2025-08-25 07:31:24,371 - WARNING - No master data available
+2025-08-25 07:31:24,371 - INFO - ✅ ETL process completed successfully
+2025-08-25 07:32:17,789 - INFO - 🚀 Starting Amazon Data ETL Process
+2025-08-25 07:32:17,789 - INFO - ==================================================
+2025-08-25 07:32:17,793 - INFO - ✅ API is healthy
+2025-08-25 07:32:17,793 - INFO - Checking if master sheet exists...
+2025-08-25 07:32:17,796 - INFO - Master sheet not found, generating now...
+2025-08-25 07:32:17,796 - INFO - Generating master sheet with 2500 entries...
+2025-08-25 07:32:18,000 - INFO - ✅ Master sheet generated: Master sheet generated successfully
+2025-08-25 07:32:18,000 - INFO - Total entries: 2500
+2025-08-25 07:32:20,000 - INFO - Generating 100 daily entries...
+2025-08-25 07:32:20,058 - INFO - ✅ Daily data generated: Generated 100 daily entries
+2025-08-25 07:32:20,058 - INFO - Total entries: 100
+2025-08-25 07:32:20,059 - INFO - Fetching daily data...
+2025-08-25 07:32:20,059 - INFO - Fetching page 1...
+2025-08-25 07:32:20,062 - INFO - Page 1: 100 records
+2025-08-25 07:32:20,163 - INFO - Fetching page 2...
+2025-08-25 07:32:20,172 - INFO - Page 2: 100 records
+2025-08-25 07:32:20,272 - INFO - Fetching page 3...
+2025-08-25 07:32:20,277 - INFO - Page 3: 100 records
+2025-08-25 07:32:20,378 - INFO - Fetching page 4...
+2025-08-25 07:32:20,381 - INFO - Page 4: 0 records
+2025-08-25 07:32:20,381 - INFO - ✅ Total records fetched: 300
+2025-08-25 07:32:20,435 - INFO - ✅ Data saved to daily_amazon_data_20250825_073220.parquet
+2025-08-25 07:32:20,435 - INFO - File size: 300 records
+2025-08-25 07:32:20,438 - INFO - 
+📊 Daily Data Statistics:
+2025-08-25 07:32:20,438 - INFO - Total records: 300
+2025-08-25 07:32:20,439 - INFO - Total profit: $-1552483.94
+2025-08-25 07:32:20,439 - INFO - Profitable items: 30
+2025-08-25 07:32:20,440 - INFO - Status 'Sold': 152 items
+2025-08-25 07:32:20,440 - INFO - Status 'In Transit': 42 items
+2025-08-25 07:32:20,440 - INFO - Status 'Not Sent': 41 items
+2025-08-25 07:32:20,440 - INFO - Status 'At FBA': 36 items
+2025-08-25 07:32:20,440 - INFO - Status 'Returned': 29 items
+2025-08-25 07:32:20,440 - INFO - Fetching master sheet data...
+2025-08-25 07:32:20,440 - INFO - Fetching master page 1...
+2025-08-25 07:32:20,454 - INFO - Master Page 1: 100 records
+2025-08-25 07:32:20,555 - INFO - Fetching master page 2...
+2025-08-25 07:32:20,570 - INFO - Master Page 2: 100 records
+2025-08-25 07:32:20,671 - INFO - ✅ Total master records fetched: 200
+2025-08-25 07:32:20,676 - INFO - ✅ Data saved to master_amazon_data_20250825_073220.parquet
+2025-08-25 07:32:20,676 - INFO - File size: 200 records
+2025-08-25 07:32:20,677 - INFO - ✅ ETL process completed successfully
